@@ -135,7 +135,7 @@ if(isset($_POST['login'])){
       <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <input id="text"  type="email" name="email" placeholder="Enter your email" required/>
         <input id="epass" type="password" name="password" placeholder="Enter your password"  required/>
-        <a href="#">Forgot password?</a>
+        <a href="forgotpassword.php">Forgot password?</a>
         <input type="submit" class="button" name="login" value="Login">
       </form>
      <div class="signup">
